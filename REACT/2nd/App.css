@@ -1,0 +1,28 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+th,td{
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+th {
+
+text-underline-position: below;
+border-bottom: 1px solid black;
+}
+td {
+    background-color:white;
+    text-underline-position: below;
+    border-bottom: 1px solid black;
+    }
